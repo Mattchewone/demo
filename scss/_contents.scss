@@ -1,0 +1,44 @@
+// Generated SCSS variables
+$example-to-build-background-color: #ffffff;
+$label-background-color: #282828;
+$label-font-color: #282828;
+$frame-2-background-color: #ffffff;
+$input-text-background-color: #282828;
+$input-text-font-color: #282828;
+$button-background-color: #0177cc;
+$button-font-color: #ffffff;
+$state-resting-background-color: #0177cc;
+$state-hover-background-color: #00294c;
+
+// Generated SCSS style rules
+@mixin example-to-build {
+  background-color: $example-to-build-background-color;
+}
+
+@mixin label {
+  background-color: $label-background-color;
+  color: $label-font-color;
+}
+
+@mixin frame-2 {
+  background-color: $frame-2-background-color;
+}
+
+@mixin input-text {
+  background-color: $input-text-background-color;
+  color: $input-text-font-color;
+}
+
+@mixin button {
+  background-color: $button-background-color;
+  color: $button-font-color;
+}
+
+@mixin state-resting {
+  background-color: $state-resting-background-color;
+}
+
+@mixin state-hover {
+  background-color: $state-hover-background-color;
+}
+
